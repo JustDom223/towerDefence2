@@ -2,6 +2,7 @@ export interface Node {
     id: string;
     x: number;
     y: number;
+    type?: 'spawn' | 'waypoint' | 'end' 
 }
 export interface Edge {
     from: string;

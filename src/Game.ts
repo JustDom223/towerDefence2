@@ -1,5 +1,6 @@
 import { MapData } from './config/MapTypes';
 import MAPS from './data/Maps';
+import { BasicEnemy } from './entities/enemies/BasicEnemy';
 
 export class Game {
     private backgroundCanvas: HTMLCanvasElement;
@@ -8,6 +9,7 @@ export class Game {
     private gameplayCtx: CanvasRenderingContext2D;
     private isRunning: boolean;
     private currentMap: MapData | null;
+    private enemies: BasicEnemy[] = []
 
     constructor(
         backgroundCanvas: HTMLCanvasElement,

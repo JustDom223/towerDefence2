@@ -5,13 +5,13 @@ export const MAPS: MapData[] = [
     {
         name: 'Level One',
         nodes: [
-            { id: 'A', x: 0, y: 20 }, // Start
+            { id: 'A', x: 0, y: 20 , type: 'spawn'}, // Start
             { id: 'B', x: 80, y: 20 },
             { id: 'C', x: 80, y: 50 },
             { id: 'D', x: 20, y: 50 },
             { id: 'E', x: 20, y: 80 },
             { id: 'F', x: 40, y: 80 },
-            { id: 'G', x: 20, y: 100 }, // End
+            { id: 'G', x: 20, y: 100 ,type: 'end'}, // End
         ],
         edges: [
             { from: 'A', to: 'B', type: 'line' },
