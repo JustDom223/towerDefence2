@@ -36,12 +36,12 @@ html {
 }
 
 #backgroundCanvas{
-    background-color: red;
-    opacity: 0.5;
+    /* background-color: red;
+    opacity: 0.5; */
 }
 #gameplayCanvas{
-    background-color: blue;
-    opacity: 0.5;
+    /* /* background-color: blue; */
+    /* opacity: 0.5; */
 }
 
 /* Tower UI */
